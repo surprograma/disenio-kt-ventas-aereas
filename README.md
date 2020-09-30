@@ -35,7 +35,7 @@ Observar que el precio depende de la cantidad de asientos vendidos en el vuelo.
 La empresa decide si se puede vender o no pasajes sobre un vuelo, de acuerdo a uno de estos criterios:
 * **Segura**: se pueden vender pasajes sobre los vuelos que tengan, al menos, 3 asientos libres.
 * **Laxa**: se permite vender en cada vuelo hasta 10 pasajes más de los asientos disponibles.
-* **Por porcentaje**: se permite vender en cada vuelo hasta un 1% más de los asientos disponibles.
+* **Por porcentaje**: se permite vender en cada vuelo hasta un 10% más de los asientos disponibles.
 * **Pandemia**: no se puede vender ningún pasaje.
 
 Este criterio es general para la empresa: el que la empresa elija, aplica para todos los vuelos. Si la empresa cambia de criterio, la nueva políica rige para todos los vuelos, actuales y futuros, hasta el siguiente cambio.
