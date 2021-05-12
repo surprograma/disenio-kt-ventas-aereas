@@ -67,8 +67,8 @@ Se pide también poder realizar las siguientes consultas, teniendo en cuenta _to
 Los siguientes requerimientos son completamente opcionales, y requieren un poquito más de algoritmia que los demás.
 
 1. Que el criterio de si se pueden vender o no pasajes pueda definirse en función del origen del vuelo. Tiene que seguir habiendo un criterio general. Si para una ciudad hay definido un criterio particular, usar ese, y si no el general de la empresa.
-3. Obtener el conjunto de vuelos intercontinentales que están programados para un determinado día. Para eso se cuenta con la información de en qué continente está cada ciudad.
-2. Registrar los pagos. Pagar un pasaje es una operación distinta a comprarlo, primero se compra y luego se paga. Soportar pagos parciales. Separar, para un vuelo, el importe total vendido del efectivamente cobrado. Poder saber, dado un DNI, cuánto debe la persona por pasajes que compró y no pagó (o no pagó totalmente).
+1. Obtener el conjunto de vuelos intercontinentales que están programados para un determinado día. Para eso se cuenta con la información de en qué continente está cada ciudad.
+1. Registrar los pagos. Pagar un pasaje es una operación distinta a comprarlo, primero se compra y luego se paga. Soportar pagos parciales. Separar, para un vuelo, el importe total vendido del efectivamente cobrado. Poder saber, dado un DNI, cuánto debe la persona por pasajes que compró y no pagó (o no pagó totalmente).
 
 ## Créditos
 
