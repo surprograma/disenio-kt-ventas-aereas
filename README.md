@@ -1,4 +1,6 @@
-# Ventas aéreas :small_airplane: 
+# Ventas aéreas 
+
+![Portada](assets/portada.jpg)
 
 ## Antes de empezar: algunos consejos
 
