@@ -14,7 +14,7 @@ En otras palabras: trabajen completando cada requerimiento antes de pasar al ant
 
 Se pide desarrollar el modelo para un sistema de manejo de venta de pasajes de una empresa aérea. La línea tiene varios **aviones**, de cada avión se conoce la _cantidad de asientos_ y la _altura de la cabina_. 
 
-De cada **vuelo** que la empresa saca a la venta, se establece: _fecha_, _avión_ que se va a usar, _origen_, _destino_, _tiempo de vuelo_, y un precio que se define como _precio estándar_ para el vuelo. Cada **pasaje** emitido corresponde a un vuelo, se registra la _fecha de venta_ y el _DNI_ del pasajero. Los pasajes no llevan número de asiento.
+De cada **vuelo** que la empresa saca a la venta, se establece: _fecha_, _avión_ que se va a usar, _origen_, _destino_ y un precio que se define como _precio estándar_ para el vuelo. Cada **pasaje** emitido corresponde a un vuelo, se registra la _fecha de venta_ y el _DNI_ del pasajero. Los pasajes no llevan número de asiento.
 
 La empresa maneja tres tipos de vuelo, y cada tipo define la cantidad de asientos disponibles y ocupados:
 
