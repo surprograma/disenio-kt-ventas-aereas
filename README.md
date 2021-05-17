@@ -14,7 +14,7 @@ En otras palabras: trabajen completando cada requerimiento antes de pasar al ant
 
 Se pide desarrollar el modelo para un sistema de manejo de venta de pasajes de una empresa aérea. La línea tiene varios **aviones**, de cada avión se conoce la _cantidad de asientos_ y la _altura de la cabina_. 
 
-De cada **vuelo** que la empresa saca a la venta, se establece: _fecha_, _avión_ que se va a usar, _origen_, _destino_ y un precio que se define como _precio estándar_ para el vuelo. Cada **pasaje** emitido corresponde a un vuelo, se registra la _fecha de venta_ y el _DNI_ del pasajero. Los pasajes no llevan número de asiento.
+De cada **vuelo** que la empresa saca a la venta, se establece: _fecha_, _avión_ que se va a usar, _origen_, _destino_ y un precio que se define como _precio estándar_ para el vuelo. Cada **pasaje** emitido corresponde a un vuelo, se registra la _fecha de venta_, el _DNI_ del pasajero o pasajera y el _importe_ que la persona abonó por él. Los pasajes no llevan número de asiento.
 
 La empresa maneja tres tipos de vuelo, y cada tipo define la cantidad de asientos disponibles y ocupados:
 
@@ -49,7 +49,7 @@ Por último, tenemos a la **IATA** (Asociación Internacional de Transporte Aér
 2. Poder decir si un vuelo es relajado o no. Se considera que un vuelo es relajado si la cabina del avión tiene más de 4 metros de alto, y tiene menos de 100 asientos disponibles para pasajeros.
 3. Saber si se pueden vender pasajes para un vuelo o no, de acuerdo al criterio que en el momento tenga la empresa.
 4. Saber el precio de venta de pasaje para un vuelo, de acuerdo a la política que tenga el vuelo, y a la cantidad de pasajes vendidos o disponibles.
-5. Registrar la venta de un pasaje para un vuelo, indicando fecha y DNI del comprador. Registrar también el precio establecido para el pasaje. Si no se pueden vender pasajes, lanzar un error.
+5. Registrar la venta de un pasaje para un vuelo, indicando fecha y DNI del comprador. Debe registrarse también el precio establecido para el pasaje, que depende de la política que tenga el vuelo. Si no se pueden vender pasajes, lanzar un error.
 6. Saber, para un vuelo, el importe total generado por venta de pasajes.
 7. Saber el peso máximo de un vuelo, que es la suma de estos factores:
    * Peso del avión.  
