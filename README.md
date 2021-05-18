@@ -22,7 +22,7 @@ La empresa maneja tres tipos de vuelo, y cada tipo define la cantidad de asiento
 * **:syringe: Vuelo de carga**: tiene 10 asientos disponibles para pasajeros, el resto del avión se utiliza para transportar vacunas. Los asientos ocupados son los de los pasajes vendidos para el vuelo.
 * **:tropical_drink: Vuelo charter**: es un vuelo que se hace para algún evento especial. La cantidad de asientos disponibles para pasajeros es la `cantidad de asientos del avión - 25`, porque se ocupa una parte del avión para armar una pequeña barra que sirve tragos durante el vuelo (¡qué nivel!). En el momento en que se organiza, ya tiene asignada una cantidad de pasajeros VIP cuyos datos no conocemos, pero sí sabemos cuántos son. El resto de los asientos sale a la venta. Los asientos ocupados son los de estos pasajeros VIP más los de los pasajes que se vendan.
 
-La cantidad de asientos libres de un avión se calcula como: `cantidad de asientos disponibles - cantidad de asientos ocupados`.
+La cantidad de asientos libres de un vuelo se calcula como: `cantidad de asientos disponibles - cantidad de asientos ocupados`.
 Para cada vuelo, la empresa también establece una política de a qué precio ofrecer cada asiento. Se deben considerar estas tres variantes:
 
 * **:moneybag: Estricta:** todos los asientos se venden al precio estándar.
