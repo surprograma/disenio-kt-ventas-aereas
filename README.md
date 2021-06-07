@@ -54,7 +54,7 @@ Por último, tenemos a la **IATA** (Asociación Internacional de Transporte Aér
 7. Saber el peso máximo de un vuelo, que es la suma de estos factores:
    * Peso del avión.  
    * Peso de los pasajeros, que es el resultado de multiplicar la cantidad de pasajeros del vuelo por un peso estándar definido por la IATA (Asociación Internacional de Transporte Aéreo).
-   * Peso de la carga, que depende del tipo de vuelo. Para vuelos normales, es la cantidad de pasajeros * lo que permite llevar la empresa a cada pasajero. Para vuelos de carga, el peso de la carga (que se setea para cada vuelo de carga) más 700 kg de equipamiento de seguridad. Para vuelos charter, 5000 kg fijo.
+   * Peso de la carga, que depende del tipo de vuelo. Para vuelos de pasajeros, es la cantidad de pasajeros * lo que permite llevar la empresa a cada pasajero. Para vuelos de carga, el peso de la carga (que se setea para cada vuelo de carga) más 700 kg de equipamiento de seguridad. Para vuelos charter, 5000 kg fijo.
 
 Se pide también poder realizar las siguientes consultas, teniendo en cuenta _todos_ los vuelos existentes:
 
