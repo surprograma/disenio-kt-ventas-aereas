@@ -39,7 +39,7 @@ La empresa decide si se puede vender o no pasajes sobre un vuelo, de acuerdo a u
 * **:100: Laxa porcentual**: se permite vender en cada vuelo hasta un 10% más de los asientos disponibles.
 * **:mask: Pandemia**: no se puede vender ningún pasaje.
 
-Este criterio es general para la empresa: el que la empresa elija, aplica para todos los vuelos. Si la empresa cambia de criterio, la nueva políica rige para todos los vuelos, actuales y futuros.
+Este criterio es general para la empresa: el que la empresa elija, aplica para todos los vuelos. Si la empresa cambia de criterio, la nueva política rige para todos los vuelos, actuales y futuros.
 
 Por último, tenemos a la **IATA** (Asociación Internacional de Transporte Aéreo), que es una organización que regula la actividad aérea, definiendo estándares y realizando estadísticas sobre los vuelos que hay en el mundo. 
 
