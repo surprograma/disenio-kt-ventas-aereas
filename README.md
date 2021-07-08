@@ -66,9 +66,21 @@ Se pide también poder realizar las siguientes consultas, teniendo en cuenta _to
 
 Los siguientes requerimientos son completamente opcionales, y requieren un poquito más de algoritmia que los demás.
 
-1. Que el criterio de si se pueden vender o no pasajes pueda definirse en función del origen del vuelo. Tiene que seguir habiendo un criterio general. Si para una ciudad hay definido un criterio particular, usar ese, y si no el general de la empresa.
-1. Obtener el conjunto de vuelos intercontinentales que están programados para un determinado día. Para eso se cuenta con la información de en qué continente está cada ciudad.
-1. Registrar los pagos. Pagar un pasaje es una operación distinta a comprarlo, primero se compra y luego se paga. Soportar pagos parciales. Separar, para cada pasaje, el importe total del efectivamente cobrado. Poder saber, dado un DNI, cuál es la deuda total de esa persona - considerando los pasajes que haya comprado en todos los vuelos existentes.
+### Criterios por ciudad
+
+Que el criterio de si se pueden vender o no pasajes pueda definirse en función de la ciudad de origen del vuelo. 
+
+Si para una ciudad hay definido un criterio particular, se usa ese, y si no el general de la empresa. Este criterio tiene que poder cambiarse (o eliminarse) en cualquier momento.
+
+### Vuelos intercontinentales
+
+Obtener el conjunto de vuelos intercontinentales que están programados para un determinado día. Para eso, agregar al modelo la información de en qué continente está cada ciudad.
+
+### Pagos
+
+Pagar un pasaje es una operación distinta a comprarlo: primero se compra y luego se paga. De cada pago, nos interesa registrar la fecha y la hora en que se realizó y su importe. Separar, para cada pasaje, el importe total del efectivamente cobrado. 
+
+Además, nos interesa poder consultar, dado un DNI, cuál es la deuda total de esa persona - considerando los pasajes que haya comprado en todos los vuelos existentes.
 
 ## Créditos
 
