@@ -12,7 +12,7 @@ En otras palabras: trabajen completando cada requerimiento antes de pasar al sig
 
 ## :bookmark_tabs: Descripción del dominio
 
-Se pide desarrollar el modelo para un sistema de manejo de venta de pasajes de distintas empresas aéreas. Cada empresa tiene varios **aviones**, de cada avión se conoce la _cantidad de asientos_ y su _peso_. 
+Se pide desarrollar el modelo para un sistema de manejo de venta de pasajes de distintas empresas aéreas. Cada empresa tiene varios **aviones**, de cada avión se conoce la _cantidad máxima de asientos_ que puede llevar y su _peso_. 
 
 De cada **vuelo** que una empresa saca a la venta, se establece: 
 * su _fecha_, 
@@ -49,7 +49,7 @@ Independientemente del tipo de vuelo, la cantidad de **asientos libres** se calc
 
 Es un vuelo que se hace para algún evento especial. 
 
-* **Asientos disponibles:** es la `cantidad de asientos del avión - 25`, porque se ocupa una parte del avión para armar una pequeña barra que sirve tragos durante el vuelo (¡qué nivel!),
+* **Asientos disponibles:** es la `cantidad máxima de asientos del avión - 25`, porque se ocupa una parte del avión para armar una pequeña barra que sirve tragos durante el vuelo (¡qué nivel!),
 * **Asientos ocupados:** En el momento en que se organiza, ya tiene asignada una cantidad de pasajeros VIP cuyos datos no conocemos, pero sí sabemos cuántos son. Los asientos ocupados son los de estos pasajeros VIP más los de los pasajes que se vendan,
 * **Peso de la carga:** 5000 kg (fijo, no cambia).
 
