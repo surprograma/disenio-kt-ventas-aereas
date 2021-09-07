@@ -2,7 +2,7 @@
 
 ![Portada](assets/portada.jpg)
 
-## Antes de empezar: algunos consejos
+## :point_up: Antes de empezar: algunos consejos
 
 El enunciado tiene **mucha** información, van a necesitar leerlo varias veces. La sugerencia es que lo lean entero una vez (para tener una idea general) y luego vuelvan a consultarlo las veces que hagan falta.
 
@@ -10,7 +10,7 @@ Concentrensé en los requerimientos y, excepto que se traben mucho, respeten el 
 
 En otras palabras: trabajen completando cada requerimiento antes de pasar al anterior, con los tests que aseguran que funciona incluidos. Si al avanzar en los requerimientos les parece necesario refactorizar, adelante, van a tener los tests que garantizan que no rompieron nada. :smirk: 
 
-## Descripción del dominio
+## :bookmark_tabs: Descripción del dominio
 
 Se pide desarrollar el modelo para un sistema de manejo de venta de pasajes de una empresa aérea. La línea tiene varios **aviones**, de cada avión se conoce la _cantidad de asientos_, la _altura de la cabina_ y su _peso_. 
 
@@ -43,7 +43,7 @@ Este criterio es general para la empresa: el que la empresa elija, aplica para t
 
 Por último, tenemos a la **IATA** (Asociación Internacional de Transporte Aéreo), que es una organización que regula la actividad aérea, definiendo estándares y realizando estadísticas sobre los vuelos que hay en el mundo. 
 
-## Requerimientos
+## :heavy_check_mark: Requerimientos
 
 1. Conocer la cantidad de asientos libres de un vuelo.
 2. Poder decir si un vuelo es relajado o no. Se considera que un vuelo es relajado si la cabina del avión tiene más de 4 metros de alto, y tiene menos de 100 asientos disponibles para pasajeros.
@@ -82,13 +82,18 @@ Pagar un pasaje es una operación distinta a comprarlo: primero se compra y lueg
 
 Además, nos interesa poder consultar, dado un DNI, cuál es la deuda total de esa persona - considerando los pasajes que haya comprado en todos los vuelos existentes.
 
-## Créditos
+## :fountain_pen: Licencia
 
-Enunciado original creado por Carlos Lombardi para UNQ - locación General Belgrano. Transformado a Markdown, recortado y reformateado por Federico Aloi para UNaHur.
+Esta obra fue elaborada por [Federico Aloi](https://github.com/faloi) y publicada bajo una [Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional][cc-by-sa].
 
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
-Esta obra está bajo una [Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional][cc-by-sa].
-
 [cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0/deed.es
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+
+### Créditos
+
+:memo: [Enunciado original](https://web-ciu-programacion.github.io/site/material/documentos/ejercicios/ventas-aereas.pdf) creado por [Carlos Lombardi](https://github.com/clombardi).
+
+:camera_flash: Imagen de portada por <a href="https://unsplash.com/@juanmascan1978?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Juan Pablo Mascanfroni</a> en <a href="https://unsplash.com/s/photos/aviones?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
+  
